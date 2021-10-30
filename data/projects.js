@@ -103,7 +103,6 @@ const projectsData = [
         src: 'https://github.com/luisdbarboza/chakra-shop',
       },
     ],
-    liveURL: 'https://chiguireelectronico.herokuapp.com/',
   },
   {
     id: 5,
