@@ -108,7 +108,7 @@ const projectsData = [
     id: 5,
     name: 'Calculadora basada en pilas',
     year: 2020,
-    tags: ['ReactJS', 'Estructuras de datos', 'Algoritmos'],
+    tags: ['ReactJS', 'Estructuras de datos', 'Algoritmos', 'FreeCodeCamp'],
     images: [
       '/images/calculadora.png',
       '/images/calculadora2.png',
@@ -129,8 +129,12 @@ const projectsData = [
     id: 6,
     name: 'Previsualizador de markdown',
     year: 2020,
-    tags: ['ReactJS', 'Librerias Javascript'],
-    images: ['/images/markdown.png'],
+    tags: ['ReactJS', 'Librerias Javascript', 'FreeCodeCamp'],
+    images: [
+      '/images/markdown.png',
+      '/images/markdown2.png',
+      '/images/markdown3.png',
+    ],
     description: [
       'Editor de markdown que muestra una vista previa del código markdown a medida que escribes código.',
     ],
@@ -140,20 +144,20 @@ const projectsData = [
         src: 'https://github.com/luisdbarboza/markdown',
       },
     ],
-    liveURL: 'https://chiguireelectronico.herokuapp.com/',
+    liveURL: 'https://markdown-previewer-luisdbarboza.stackblitz.io/',
   },
   {
     id: 7,
     name: 'Reloj pomodoro',
     year: 2020,
-    tags: ['ReactJS', 'Librerias Javascript'],
+    tags: ['ReactJS', 'Librerias Javascript', 'FreeCodeCamp'],
     images: [
       '/images/pomodoro1.png',
       '/images/pomodoro2.png',
       '/images/pomodoro3.png',
     ],
     description: [
-      'Editor de markdown que muestra una vista previa del código markdown a medida que escribes código.',
+      'Reloj pomodoro sencillo hecho para la certificación en librerias de frontend de FreeCodeCamp.',
     ],
     repositories: [
       {

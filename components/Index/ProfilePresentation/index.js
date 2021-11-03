@@ -30,7 +30,7 @@ export default function ProfilePresentation() {
             }}
           >
             <Image
-              src="/images/foto_perfil.jpg"
+              src="/images/foto perfil nueva.jpg"
               width="100%"
               height="100%"
               layout="responsive"
@@ -71,7 +71,7 @@ export default function ProfilePresentation() {
                 variant="body2"
                 sx={styles.skillsAndInterestsBox.text.body}
               >
-                Desarrollo de aplicaciones web, administracion de sistemas
+                Desarrollo de aplicaciones web, administración de sistemas
                 linux, bases de datos relacionales y noSQL, autodidacta
               </Typography>{' '}
             </Box>
@@ -88,8 +88,8 @@ export default function ProfilePresentation() {
                 variant="body2"
                 sx={styles.skillsAndInterestsBox.text.body}
               >
-                Aplicaciones multiplataforma, Aprender nuevas tecnologias,
-                Ciencia, Investigar
+                Aplicaciones multiplataforma, aprender nuevas tecnologías,
+                redes, ciberseguridad, ciencia, investigar
               </Typography>{' '}
             </Box>
           </Grid>

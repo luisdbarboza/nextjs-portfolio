@@ -72,7 +72,13 @@ export default function ShowcaseItemModalBody({
       >
         <Grid item container sx={styles.modalBoxBody.tagsWrapper}>
           {tags.map((tag) => (
-            <Grid item sx={styles.modalBoxBody.tags}>
+            <Grid
+              item
+              continer
+              justifyContent="center"
+              direction="column"
+              sx={styles.modalBoxBody.tags}
+            >
               {tag}
             </Grid>
           ))}

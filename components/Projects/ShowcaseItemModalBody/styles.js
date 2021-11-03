@@ -43,7 +43,6 @@ const applyStyles = (theme) => ({
       },
     },
     tagsWrapper: {
-      flex: 1,
       justifyContent: 'center',
       [`@media (max-width: ${theme.breakpoints.values.md}px)`]: {
         marginTop: '1rem',
@@ -52,8 +51,8 @@ const applyStyles = (theme) => ({
     tags: {
       bgcolor: '#16a085',
       color: 'white',
-      borderRadius: '25px',
-      padding: '0.5rem',
+      borderRadius: '10px',
+      padding: '0.3rem',
       margin: '0.2rem 0.5rem',
       fontSize: '0.8rem',
     },
