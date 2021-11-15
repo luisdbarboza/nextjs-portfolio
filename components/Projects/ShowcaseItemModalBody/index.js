@@ -50,11 +50,13 @@ export default function ShowcaseItemModalBody({
               item
               sx={{
                 ...styles.modalBoxBody.carrouselInputPanel.imageBox,
-                border:
-                  image === images[currentImage] ? '3px solid black' : 'none',
+                boxShadow:
+                  image === images[currentImage]
+                    ? '0px 0px 5px gray'
+                    : '0px 0px 0px gray',
               }}
             >
-              <Image src={image} layout="fill" />
+              <Image src={image} layout="fill" objectFit="cover" />
             </Grid>
           ))}
           <Grid item sx={styles.modalBoxBody.carrouselInputPanel.arrows}>

@@ -25,15 +25,21 @@ const applyStyles = (theme) => ({
     carrouselInputPanel: {
       // bgcolor: 'red',
       height: '20%',
+      // flexWrap: 'wrap',
       [`@media (max-width: ${theme.breakpoints.values.md}px)`]: {
         height: '100px',
       },
       imageBox: {
         position: 'relative',
-        height: '70px',
+        minHeight: '70px',
+        // width: '70px',
         flex: 1,
-        // border: '2px solid green',
+        transition: 'box-shadow 0.3s linear',
         margin: '0.5rem',
+        ':hover': {
+          cursor: 'pointer',
+          boxShadow: '1px 1px 5px gray',
+        },
       },
       arrows: {
         fontSize: '2rem',

@@ -12,24 +12,48 @@ const applyStyles = (theme) => {
       boxShadow: '1px 1px 3px black',
     },
     navStack: {
-      justifyContent: 'flex-start',
+      width: '100%',
+      justifyContent: 'space-between',
       alignItems: 'center',
       direction: 'row',
-      spacing: 4,
     },
     logo: {
       color: 'skyblue',
       fontWeight: 'bold',
       fontSize: '1.5rem',
       ':hover': {
-        cursor: 'pointer'
-      }
+        cursor: 'pointer',
+      },
     },
     linksStack: {
       justifyContent: 'flex-start',
       alignItems: 'center',
-      direction: 'row',
-      spacing: 2,
+      flexDirection: 'row',
+      gap: 2,
+      [`@media (max-width: ${theme.breakpoints.values.md}px)`]: {
+        display: 'none',
+      },
+    },
+    menuButton: {
+      fontSize: '2rem',
+      display: 'flex',
+      alignItems: 'center',
+      ':hover': { cursor: 'pointer' },
+      color: 'white',
+      display: 'none',
+      [`@media (max-width: ${theme.breakpoints.values.md}px)`]: {
+        display: 'block',
+      },
+    },
+    linksModalBox: {
+      position: 'fixed',
+      width: '100%',
+      height: '100vh',
+      top: 50,
+      left: 0,
+      zIndex: 800,
+      backgroundColor: '#0A1929',
+      display: 'none',
     },
   };
 };

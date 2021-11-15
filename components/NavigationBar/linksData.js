@@ -6,19 +6,21 @@ const linksData = [
   { text: 'Proyectos', url: '/projects' },
 ];
 
+const styles = {
+  color: 'white',
+  fontFamily: 'Fira Code',
+  '@media (max-width: 900px)': {
+    fontSize: '2.5rem',
+  },
+  ':hover': {
+    textDecoration: 'underline',
+  },
+};
+
 const links = linksData.map((link, index) => (
   <Link href={link.url} key={index}>
     <a>
-      <Typography
-        variant="h6"
-        sx={{
-          color: 'white',
-          fontFamily: 'Fira Code',
-          '@media (max-width: 600px)': {
-            fontSize: '1rem',
-          },
-        }}
-      >
+      <Typography variant="h6" sx={styles}>
         {link.text}
       </Typography>
     </a>
