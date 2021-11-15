@@ -11,7 +11,7 @@ export default function ShowcaseItemHeader({
   setModalData,
   projectsData,
   item,
-  handleClose,
+  handleClose
 }) {
   const theme = useTheme();
   const styles = applyStyles(theme);
@@ -24,7 +24,7 @@ export default function ShowcaseItemHeader({
         sm={3}
         md={2}
         justifyContent="center"
-        alignItem="center"
+        alignItems="center"
         // sx={{ border: '1px solid white' }}
       >
         <Grid item xs={12}>
@@ -62,7 +62,7 @@ export default function ShowcaseItemHeader({
         sm={5}
         md={5}
         justifyContent="center"
-        alignItem="center"
+        alignItems="center"
         // sx={{ border: '1px solid violet' }}
       >
         <ItemsNavigation
@@ -76,7 +76,7 @@ export default function ShowcaseItemHeader({
         container
         xs={1}
         justifyContent="center"
-        alignItem="center"
+        alignItems="center"
         // sx={{ border: '1px solid red' }}
       >
         <IconButton

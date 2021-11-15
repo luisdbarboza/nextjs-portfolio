@@ -7,14 +7,14 @@ import projectsData from '../../../data/projects';
 export default function Showcase() {
   const [modalData, setModalData] = useState({
     open: false,
-    item: null,
+    item: null
   });
   const handleClose = () => setModalData(() => ({ ...modalData, open: false }));
 
   const handleModalOpening = (projectIndex) => {
     setModalData((prevModalData) => ({
       open: !modalData.open,
-      item: projectIndex,
+      item: projectIndex
     }));
   };
 
@@ -24,14 +24,14 @@ export default function Showcase() {
         sx={{
           bgcolor: '#0A1929',
           width: '100%',
-          padding: '2rem',
+          padding: '2rem'
         }}
         container
       >
         <Grid item xs={12}>
           <Grid container spacing={2}>
             {projectsData.map((project, index) => (
-              <Grid item xs={12} sm={6}>
+              <Grid item xs={12} sm={6} key={index + project.name}>
                 <div
                   key={project.name}
                   onClick={() => handleModalOpening(index)}

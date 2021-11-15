@@ -1,6 +1,7 @@
 import { Modal, Box, Grid, useTheme } from '@material-ui/core';
 import ShowcaseItemHeader from '../ShowcaseItemModalHeader';
 import ShowcaseItemModalBody from '../ShowcaseItemModalBody';
+import ItemsNavigation from '../ItemsNavigation';
 import applyStyles from './styles';
 
 const ShowcaseItemModal = ({
@@ -8,13 +9,20 @@ const ShowcaseItemModal = ({
   handleClose,
   item,
   projectsData,
-  setModalData,
+  setModalData
 }) => {
   const theme = useTheme();
   const styles = applyStyles(theme);
   const itemData = projectsData[item];
-  const { name, year, tags, images, description, repositories, liveURL } =
-    itemData;
+  const {
+    name,
+    year,
+    tags,
+    images,
+    description,
+    repositories,
+    liveURL
+  } = itemData;
 
   return (
     <Modal
@@ -43,7 +51,14 @@ const ShowcaseItemModal = ({
             />
           </Grid>
           <Grid item xs={12}>
-            <Box sx={styles.modalBoxFooter} />
+            <Box sx={styles.modalBoxFooter}>
+              <ItemsNavigation
+                setModalData={setModalData}
+                projectsData={projectsData}
+                item={item}
+                footer
+              />
+            </Box>
           </Grid>
         </Grid>
       </Box>

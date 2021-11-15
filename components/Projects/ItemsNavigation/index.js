@@ -3,24 +3,32 @@ import { FaLongArrowAltLeft, FaLongArrowAltRight } from 'react-icons/fa';
 import useCarrousel from '../../../hooks/useCarrousel';
 import applyStyles from './styles';
 
-const ItemsNavigation = ({ setModalData, projectsData, item }) => {
+const ItemsNavigation = ({ setModalData, projectsData, item, footer }) => {
   const theme = useTheme();
   const handleItemNavigation = (direction) => {
     if (direction === 'NEXT' && item + 1 <= projectsData.length - 1) {
       setModalData((prevModalData) => ({
         ...prevModalData,
-        item: item + 1,
+        item: item + 1
       }));
     } else if (direction === 'PREVIOUS' && item - 1 >= 0) {
       setModalData((prevModalData) => ({
         ...prevModalData,
-        item: item - 1,
+        item: item - 1
       }));
     }
   };
 
   return (
-    <Grid container>
+    <Grid
+      container
+      sx={{
+        display: !footer ? 'flex' : 'none',
+        '@media (max-width: 600px)': {
+          display: footer ? 'flex' : 'none'
+        }
+      }}
+    >
       <Grid
         item
         container

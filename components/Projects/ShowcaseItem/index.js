@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Paper, Box, useTheme } from '@material-ui/core';
 import applyStyles from './style';
 
@@ -9,9 +8,8 @@ export default function ShowcaseItem({
   images,
   description,
   repositories,
-  liveURL,
+  liveURL
 }) {
-  const [showTitle, setShowTitle] = useState(false);
   const theme = useTheme();
   const styles = applyStyles(theme, images);
 

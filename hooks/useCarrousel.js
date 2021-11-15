@@ -1,10 +1,17 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const useCarrousel = (dataArray) => {
   const [carrouselState, setCarrouselState] = useState({
     numberOfItems: dataArray.length - 1,
-    currentItem: 0,
+    currentItem: 0
   });
+
+  useEffect(() => {
+    setCarrouselState({
+      numberOfItems: dataArray.length - 1,
+      currentItem: 0
+    });
+  }, [dataArray.toString()]);
 
   return [
     carrouselState,
@@ -15,7 +22,7 @@ const useCarrousel = (dataArray) => {
       ) {
         setCarrouselState((prevData) => ({
           ...prevData,
-          currentItem: carrouselState.currentItem + 1,
+          currentItem: carrouselState.currentItem + 1
         }));
       } else if (
         direction === 'PREVIOUS' &&
@@ -23,10 +30,10 @@ const useCarrousel = (dataArray) => {
       ) {
         setCarrouselState((prevData) => ({
           ...prevData,
-          currentItem: carrouselState.currentItem - 1,
+          currentItem: carrouselState.currentItem - 1
         }));
       }
-    },
+    }
   ];
 };
 
