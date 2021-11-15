@@ -2,7 +2,7 @@ const applyStyles = (theme) => ({
   modalBoxBody: {
     width: '100%',
     overflowY: 'scroll',
-    height: '75vh',
+    height: '65vh',
 
     currentImageGridWrapper: {
       padding: '0.5rem',
@@ -10,8 +10,8 @@ const applyStyles = (theme) => ({
       // border: '1px solid black',
       height: '80%',
       [`@media (max-width: ${theme.breakpoints.values.md}px)`]: {
-        height: '400px'
-      }
+        height: '400px',
+      },
     },
     currentImageWrapper: {
       position: 'relative',
@@ -19,15 +19,15 @@ const applyStyles = (theme) => ({
       height: '100%',
       [`@media (max-width: ${theme.breakpoints.values.md}px)`]: {
         width: '100%',
-        height: '80%'
-      }
+        height: '80%',
+      },
     },
     carrouselInputPanel: {
       // bgcolor: 'red',
       height: '20%',
       // flexWrap: 'wrap',
       [`@media (max-width: ${theme.breakpoints.values.md}px)`]: {
-        height: '100px'
+        height: '100px',
       },
       imageBox: {
         position: 'relative',
@@ -38,21 +38,21 @@ const applyStyles = (theme) => ({
         margin: '0.5rem',
         ':hover': {
           cursor: 'pointer',
-          boxShadow: '1px 1px 5px gray'
-        }
+          boxShadow: '1px 1px 5px gray',
+        },
       },
       arrows: {
         fontSize: '2rem',
         ':hover': {
-          cursor: 'pointer'
-        }
-      }
+          cursor: 'pointer',
+        },
+      },
     },
     tagsWrapper: {
       justifyContent: 'center',
       [`@media (max-width: ${theme.breakpoints.values.md}px)`]: {
-        marginTop: '1rem'
-      }
+        marginTop: '1rem',
+      },
     },
     tags: {
       bgcolor: '#16a085',
@@ -60,18 +60,18 @@ const applyStyles = (theme) => ({
       borderRadius: '10px',
       padding: '0.3rem',
       margin: '0.2rem 0.5rem',
-      fontSize: '0.8rem'
+      fontSize: '0.8rem',
     },
     descriptionHeader: {
       flex: 0.5,
       [`@media (max-width: ${theme.breakpoints.values.md}px)`]: {
-        marginTop: '1rem'
-      }
+        marginTop: '1rem',
+      },
     },
     descriptionBody: {
-      flex: 4
-    }
-  }
+      flex: 4,
+    },
+  },
 });
 
 export default applyStyles;
