@@ -37,7 +37,7 @@ const projectsData = [
     id: 2,
     name: 'Chiguire Electrónico',
     year: 2021,
-    tags: ['PERN Stack', 'Fullstack', 'Blog', 'NodeMailer', 'JWT'],
+    tags: ['MERN Stack', 'Fullstack', 'Blog', 'NodeMailer', 'JWT'],
     images: [
       '/images/chiguire1.png',
       '/images/chiguire2.png',
