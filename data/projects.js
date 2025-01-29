@@ -6,8 +6,8 @@ const projectsData = [
     tags: [
       'PERN Stack',
       'Fullstack',
-      'Algoritmos',
-      'Estructuras de datos',
+      'Algorithms',
+      'Data structures',
       'SPA',
     ],
     images: [
@@ -19,19 +19,18 @@ const projectsData = [
       '/images/algothinker-6.gif',
     ],
     description: [
-      'Aplicación web fullstack creada para enseñar a estudiantes de la URBE sobre las caracteristicas de los algorimos y estructuras de datos mediante simulaciones interactivas, ejemplos de codigo y ejercicios prácticos (Proyecto de tesis, creado con: React, Node, Express, PostgreSQL, D3.js, Styled components, JWT',
+      'Fullstack web application created to teach URBE students about the characteristics of algorithms and data structures through interactive simulations, code examples and practical exercises (Thesis project, created with: React, Node, Express, PostgreSQL, D3.js, Styled components, JWT',
     ],
     repositories: [
       {
-        label: 'Código frontend',
+        label: 'Frontend code',
         src: 'https://github.com/luisdbarboza/algothinker-front',
       },
       {
-        label: 'Código backend',
+        label: 'Backend code',
         src: 'https://github.com/luisdbarboza/algothinker-front',
       },
     ],
-    liveURL: 'https://admiring-hodgkin-478922.netlify.app/',
   },
   {
     id: 2,
@@ -46,22 +45,40 @@ const projectsData = [
       '/images/chiguire5.png',
     ],
     description: [
-      'Aplicación web fullstack de noticias, con categorias, posts, arbol de comentarios, sesiones de usuario, API para las funciones CRUD',
+      'Fullstack news web application, with categories, posts, comments tree, user sessions, API for CRUD functions',
     ],
     repositories: [
       {
-        label: 'Código frontend',
+        label: 'Frontend code',
         src: 'https://github.com/luisdbarboza/algothinker-front',
       },
       {
-        label: 'Código backend',
+        label: 'Backend code',
         src: 'https://github.com/luisdbarboza/chiguireElectronico',
       },
     ],
-    liveURL: 'https://chiguireelectronico.herokuapp.com/',
   },
   {
     id: 3,
+    name: 'A* algorithm visualization',
+    year: 2024,
+    tags: ['Angular', 'Typecript', 'Algorithms', 'Data structures'],
+    images: [
+      '/images/aStar.png'
+    ],
+    description: [
+      'Visualization of the A* pathfinding algorithm, used widely across the game development industry',
+    ],
+    repositories: [
+      {
+        label: 'Code',
+        src: 'https://github.com/luisdbarboza/AStarAlgorithmVisualization',
+      },
+    ],
+    liveURL: 'https://a-star-visualization-pqpgoifhe-luisdbarbozas-projects.vercel.app/',
+  },
+  {
+    id: 4,
     name: 'Questlinks(Closed source)',
     year: 2021,
     tags: ['GraphQL', 'Pasantias', 'NextJS', 'ChakraUI', 'CodeCraftKit'],
@@ -73,12 +90,12 @@ const projectsData = [
       '/images/questlinks5.png',
     ],
     description: [
-      'Aplicación web hecha para el ecosistema interno de apps usado por CodeCraft, el departamento de desarrollo de Fino Company Venezuela',
+      'Web application made for the internal app ecosystem used by CodeCraft, the development department of Fino Company Venezuela',
     ],
     repositories: [],
   },
   {
-    id: 4,
+    id: 5,
     name: 'ChakraShop',
     year: 2021,
     tags: [
@@ -95,77 +112,77 @@ const projectsData = [
       '/images/chakrashop3.png',
     ],
     description: [
-      'Ecommerce (sin pagos integrados por ahora) sencillo elaborado para prácticar el stack de tecnologías usado por la empresa donde hice mis prácticas profesionales.',
+      'Simple ecommerce (without integrated payments for now) designed to practice the technology stack used by the company where I did my internship.',
     ],
     repositories: [
       {
-        label: 'Código',
+        label: 'Code',
         src: 'https://github.com/luisdbarboza/chakra-shop',
       },
     ],
   },
   {
-    id: 5,
-    name: 'Calculadora basada en pilas',
+    id: 6,
+    name: 'Stack based calculator',
     year: 2020,
-    tags: ['ReactJS', 'Estructuras de datos', 'Algoritmos', 'FreeCodeCamp'],
+    tags: ['ReactJS', 'Data structures', 'Algorithms', 'FreeCodeCamp'],
     images: [
       '/images/calculadora.png',
       '/images/calculadora2.png',
       '/images/calculadora3.png',
     ],
     description: [
-      'Aplicación de calculadora sencilla, que implementa el algoritmo Shunting yard para evaluar expresiones aritmeticas en orden de acuerdo a la notación polaca inversa.',
+      'Simple calculator application, which implements the Shunting yard algorithm to evaluate arithmetic expressions in order according to the reverse Polish notation.',
     ],
     repositories: [
       {
-        label: 'Código',
+        label: 'Code',
         src: 'https://github.com/luisdbarboza/FCC-Calculator',
       },
     ],
-    liveURL: 'https://calculator-luisdbarboza.stackblitz.io/',
+    liveURL: 'https://fcc-calculator-five.vercel.app/',
   },
   {
-    id: 6,
-    name: 'Previsualizador de markdown',
+    id: 7,
+    name: 'Markdown previewer',
     year: 2020,
-    tags: ['ReactJS', 'Librerias Javascript', 'FreeCodeCamp'],
+    tags: ['ReactJS', 'Javascript Libraries', 'FreeCodeCamp'],
     images: [
       '/images/markdown.png',
       '/images/markdown2.png',
       '/images/markdown3.png',
     ],
     description: [
-      'Editor de markdown que muestra una vista previa del código markdown a medida que escribes código.',
+      'Markdown editor that shows a preview of markdown code as you type code.',
     ],
     repositories: [
       {
-        label: 'Código',
+        label: 'Code',
         src: 'https://github.com/luisdbarboza/markdown',
       },
     ],
-    liveURL: 'https://markdown-previewer-luisdbarboza.stackblitz.io/',
+    liveURL: 'https://markdown-sandy.vercel.app/',
   },
   {
-    id: 7,
-    name: 'Reloj pomodoro',
+    id: 8,
+    name: 'Pomodoro Clock',
     year: 2020,
-    tags: ['ReactJS', 'Librerias Javascript', 'FreeCodeCamp'],
+    tags: ['ReactJS', 'Javascript libraries', 'FreeCodeCamp'],
     images: [
       '/images/pomodoro1.png',
       '/images/pomodoro2.png',
       '/images/pomodoro3.png',
     ],
     description: [
-      'Reloj pomodoro sencillo hecho para la certificación en librerias de frontend de FreeCodeCamp.',
+      "Simple pomodoro clock made for FreeCodeCamp's frontend libraries certification",
     ],
     repositories: [
       {
-        label: 'Código',
+        label: 'Code',
         src: 'https://github.com/luisdbarboza/pomodoroClock',
       },
     ],
-    liveURL: 'https://luisdbarboza.github.io/pomodoroClock/',
+    liveURL: 'https://pomodoro-clock-wbzr.vercel.app/',
   },
 ];
 

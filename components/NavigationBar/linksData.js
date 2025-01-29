@@ -2,8 +2,8 @@ import Link from 'next/link';
 import { Typography } from '@material-ui/core';
 
 const linksData = [
-  { text: 'Sobre mí', url: '/' },
-  { text: 'Proyectos', url: '/projects' },
+  { text: 'About me', url: '/' },
+  { text: 'Projects', url: '/projects' },
 ];
 
 const styles = {

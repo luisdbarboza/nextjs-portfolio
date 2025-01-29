@@ -90,7 +90,7 @@ export default function ShowcaseItemModalBody({
           ))}
         </Grid>
         <Grid item sx={styles.modalBoxBody.descriptionHeader}>
-          <Typography variant="h5">DESCRIPCIÓN</Typography>
+          <Typography variant="h5">DESCRIPTION</Typography>
         </Grid>
         <Grid item sx={styles.modalBoxBody.descriptionBody}>
           <Typography variant="body2">{description}</Typography>

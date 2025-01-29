@@ -29,12 +29,14 @@ export default function ProfilePresentation() {
               },
             }}
           >
-            <Image
-              src="/images/foto perfil nueva.jpg"
-              width="100%"
-              height="100%"
-              layout="responsive"
-            />
+            <div style={{ borderRadius: '50%', overflow: 'hidden' }}>
+              <Image
+                src="/images/perfil.jpg"
+                width="100%"
+                height="100%"
+                layout="responsive"
+              />
+            </div>
           </Box>
         </Box>
       </Grid>
@@ -56,7 +58,7 @@ export default function ProfilePresentation() {
             <Typography
               sx={styles.skillsAndInterestsBox.text.presentationHeader}
             >
-              ¡Hola! mi nombre es Luis y soy ingeniero en informática
+              ¡Hi! my name is Luis and i'm a software engineer
             </Typography>
           </Grid>
           <Grid item xs={2} sx={styles.skillsAndInterestsBoxWrapper}>
@@ -65,14 +67,13 @@ export default function ProfilePresentation() {
                 variant="h6"
                 sx={styles.skillsAndInterestsBox.text.header}
               >
-                Habilidades
+                Skills
               </Typography>
               <Typography
                 variant="body2"
                 sx={styles.skillsAndInterestsBox.text.body}
               >
-                Desarrollo de aplicaciones web, administración de sistemas
-                linux, bases de datos relacionales y noSQL, autodidacta
+                Web application development, linux scripting with python, relational databases, mongodb, autodidact
               </Typography>{' '}
             </Box>
           </Grid>
@@ -82,14 +83,13 @@ export default function ProfilePresentation() {
                 variant="h6"
                 sx={styles.skillsAndInterestsBox.text.header}
               >
-                Intereses
+                My interests
               </Typography>
               <Typography
                 variant="body2"
                 sx={styles.skillsAndInterestsBox.text.body}
               >
-                Aplicaciones multiplataforma, aprender nuevas tecnologías,
-                redes, ciberseguridad, ciencia, investigar
+                Cross platform apps, learning new skills, game development, 3d graphics, backend development
               </Typography>{' '}
             </Box>
           </Grid>

@@ -49,7 +49,7 @@ const ItemsNavigation = ({ setModalData, projectsData, item, footer }) => {
                 .navigationButtonText
             }
           >
-            ANTERIOR
+            Previous
           </Typography>
         </Grid>
       </Grid>
@@ -70,7 +70,7 @@ const ItemsNavigation = ({ setModalData, projectsData, item, footer }) => {
                 .navigationButtonText
             }
           >
-            SIGUIENTE
+            Next
           </Typography>
         </Grid>
         <Grid item container alignItems="center" justifyContent="center" xs={4}>

@@ -14,18 +14,14 @@ export default function Skills() {
               color="white"
               sx={{ fontFamily: 'Fira Sans' }}
             >
-              Tecnologías
+              Tech skills
             </Typography>
             <Typography
               variant="body1"
               color="white"
               sx={{ textAlign: 'justify', fontFamily: 'Fira Sans' }}
             >
-              Durante mi carrera, decidí enfocarme en aprender tecnologías de
-              desarrollo web modernas que me permitieran crear sistemas
-              multiplataforma, esto me llevo a aprender ReactJS, NodeJS,
-              ExpressJS, Sass, Material UI, Linux y actualmente me gustaría
-              aprender React Native y aplicaciones web progresivas(PWA).
+              I possess knowledge of many programming languages, databases, frameworks, and tools, like, javascript, python, c++, typescript, postgresql, mongodb, nodejs, angular, react and linux; During my 2 years of experience in web development, i worked on both the frontend and backend side of things, depending on the task, i've created reusable components for a single page application, connected the ui with the server with both rest and graphql apis, integrated third party libraries and apis on a nestjs server, created endpoints, modified microservices, among other things
             </Typography>
           </Grid>
           <Grid item xs={4} />

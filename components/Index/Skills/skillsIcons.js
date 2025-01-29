@@ -1,26 +1,32 @@
-import { IoLogoJavascript, IoLogoNodejs, IoLogoCss3 } from 'react-icons/io';
+import { IoLogoJavascript, IoLogoNodejs, IoLogoCss3, IoLogoAngular, IoLogoPython, } from 'react-icons/io';
 import {
   SiExpress,
-  SiMongodb,
+  SiTypescript,
   SiPostgresql,
-  SiMaterialui,
-  SiPhp,
-  SiMysql,
+  SiMongodb,
+  SiNestjs,
+  SiLinux,
+  SiThreedotjs,
+  SiCplusplus
 } from 'react-icons/si';
 import { FaReact, FaHtml5, FaGit } from 'react-icons/fa';
 
 const array = [
   IoLogoJavascript,
   IoLogoNodejs,
+  SiTypescript,
   IoLogoCss3,
   SiExpress,
-  SiMongodb,
   SiPostgresql,
-  SiMaterialui,
-  SiPhp,
-  SiMysql,
+  IoLogoAngular,
+  IoLogoPython,
   FaReact,
+  SiLinux,
+  SiCplusplus,
   FaHtml5,
+  SiMongodb,
+  SiNestjs,
+  SiThreedotjs,
   FaGit,
 ];
 
