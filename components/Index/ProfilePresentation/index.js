@@ -73,7 +73,7 @@ export default function ProfilePresentation() {
                 variant="body2"
                 sx={styles.skillsAndInterestsBox.text.body}
               >
-                Web application development, linux scripting with python, relational databases, mongodb, autodidact
+                Web application development, angular, nodejs, linux scripting with python, postgresql, autodidact
               </Typography>{' '}
             </Box>
           </Grid>

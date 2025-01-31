@@ -21,7 +21,7 @@ export default function Skills() {
               color="white"
               sx={{ textAlign: 'justify', fontFamily: 'Fira Sans' }}
             >
-              I possess knowledge of many programming languages, databases, frameworks, and tools, like, javascript, python, c++, typescript, postgresql, mongodb, nodejs, angular, react and linux; During my 2 years of experience in web development, i worked on both the frontend and backend side of things, depending on the task, i've created reusable components for a single page application, connected the ui with the server with both rest and graphql apis, integrated third party libraries and apis on a nestjs server, created endpoints, modified microservices, among other things
+              I possess knowledge of many programming languages, databases, frameworks, and tools, like, javascript, python, c++, typescript, postgresql, mongodb, nodejs, angular, react and linux, I don't rely on memorizing for coding, many of the skills i listed, i haven't used for a while, like mongodb or mongoose, but i can always check documentation to remind myself how to work with those technologies, During my 2 years of experience in web development, i worked on both the frontend and backend side of things, depending on the task, i've created reusable components for a single page application, connected the ui with the server with both rest and graphql apis, integrated third party libraries and apis on a nestjs server, created endpoints, modified microservices, among other things
             </Typography>
           </Grid>
           <Grid item xs={4} />
